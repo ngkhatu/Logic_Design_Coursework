@@ -1,0 +1,306 @@
+$date
+    Feb 28, 2007  12:13:55
+$end
+$version
+    Tool:	VERILOG-XL	05.10.003-s
+$end
+$timescale
+     100ps
+$end
+
+$scope module test_fixture $end
+$var reg       1 !    done  $end
+$var reg       4 "    test_input [3:0] $end
+$var wire      1 #    dec0  $end
+$var wire      1 $    dec1  $end
+$var wire      1 %    dec2  $end
+$var wire      1 &    dec3  $end
+$var wire      1 '    dec4  $end
+$var wire      1 (    dec5  $end
+$var wire      1 )    dec6  $end
+$var wire      1 *    dec7  $end
+$var wire      1 +    dec8  $end
+$var wire      1 ,    dec9  $end
+$var wire      1 -    dec10  $end
+$var wire      1 .    dec11  $end
+$var wire      1 /    dec12  $end
+$var wire      1 0    dec13  $end
+$var wire      1 1    dec14  $end
+$var wire      1 2    dec15  $end
+$var wire      1 3    G  $end
+
+$scope module u6 $end
+$var wire      1 3    G  $end
+$var wire      1 4    n3  $end
+$var wire      1 5    n2  $end
+$var wire      1 6    n1  $end
+$var wire      1 7    n0  $end
+$var wire      1 #    dec0  $end
+$var wire      1 $    dec1  $end
+$var wire      1 %    dec2  $end
+$var wire      1 &    dec3  $end
+$var wire      1 '    dec4  $end
+$var wire      1 (    dec5  $end
+$var wire      1 )    dec6  $end
+$var wire      1 *    dec7  $end
+$var wire      1 +    dec8  $end
+$var wire      1 ,    dec9  $end
+$var wire      1 -    dec10  $end
+$var wire      1 .    dec11  $end
+$var wire      1 /    dec12  $end
+$var wire      1 0    dec13  $end
+$var wire      1 1    dec14  $end
+$var wire      1 2    dec15  $end
+$var wire      1 8    enable1  $end
+$var wire      1 9    enable2  $end
+$var wire      1 :    enable3  $end
+$var wire      1 ;    enable4  $end
+$var wire      1 <    out0  $end
+$var wire      1 =    out1  $end
+$var wire      1 >    out2  $end
+$var wire      1 ?    out3  $end
+$var wire      1 @    out4  $end
+$var wire      1 A    out5  $end
+$var wire      1 B    out6  $end
+$var wire      1 C    out7  $end
+$var wire      1 D    out8  $end
+$var wire      1 E    out9  $end
+$var wire      1 F    out10  $end
+$var wire      1 G    out11  $end
+$var wire      1 H    out12  $end
+$var wire      1 I    out13  $end
+$var wire      1 J    out14  $end
+$var wire      1 K    out15  $end
+
+$scope module u1 $end
+$var wire      1 3    G  $end
+$var wire      1 5    A  $end
+$var wire      1 4    B  $end
+$var wire      1 8    yo  $end
+$var wire      1 9    y1  $end
+$var wire      1 :    y2  $end
+$var wire      1 ;    y3  $end
+$upscope $end
+
+
+$scope module u2 $end
+$var wire      1 8    G  $end
+$var wire      1 7    A  $end
+$var wire      1 6    B  $end
+$var wire      1 <    yo  $end
+$var wire      1 =    y1  $end
+$var wire      1 >    y2  $end
+$var wire      1 ?    y3  $end
+$upscope $end
+
+
+$scope module u3 $end
+$var wire      1 9    G  $end
+$var wire      1 7    A  $end
+$var wire      1 6    B  $end
+$var wire      1 @    yo  $end
+$var wire      1 A    y1  $end
+$var wire      1 B    y2  $end
+$var wire      1 C    y3  $end
+$upscope $end
+
+
+$scope module u4 $end
+$var wire      1 :    G  $end
+$var wire      1 7    A  $end
+$var wire      1 6    B  $end
+$var wire      1 D    yo  $end
+$var wire      1 E    y1  $end
+$var wire      1 F    y2  $end
+$var wire      1 G    y3  $end
+$upscope $end
+
+
+$scope module u5 $end
+$var wire      1 ;    G  $end
+$var wire      1 7    A  $end
+$var wire      1 6    B  $end
+$var wire      1 H    yo  $end
+$var wire      1 I    y1  $end
+$var wire      1 J    y2  $end
+$var wire      1 K    y3  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+b0000 "
+1#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+13
+04
+05
+06
+07
+18
+09
+0:
+0;
+1<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+$end
+#50
+b0001 "
+17
+1=
+0<
+1$
+0#
+#100
+b0011 "
+b0010 "
+16
+07
+0=
+1>
+0$
+1%
+#150
+b0011 "
+17
+1?
+0>
+1&
+0%
+#200
+b0111 "
+b0101 "
+b0100 "
+15
+06
+07
+19
+08
+0?
+1@
+0&
+1'
+#250
+b0101 "
+17
+1A
+0@
+1(
+0'
+#300
+b0111 "
+b0110 "
+16
+07
+0A
+1B
+0(
+1)
+#350
+b0111 "
+b1111 "
+b1011 "
+b1001 "
+b1000 "
+14
+05
+06
+09
+1:
+0B
+1D
+0)
+1+
+#400
+b1001 "
+17
+1E
+0D
+1,
+0+
+#450
+b1011 "
+b1010 "
+16
+07
+0E
+1F
+0,
+1-
+#500
+b1011 "
+17
+1G
+0F
+1.
+0-
+#550
+b1111 "
+b1101 "
+b1100 "
+15
+06
+07
+1;
+0:
+0G
+1H
+0.
+1/
+#600
+b1101 "
+17
+1I
+0H
+10
+0/
+#650
+b1111 "
+b1110 "
+16
+07
+0I
+1J
+00
+11
+#700
+b1111 "
+17
+1K
+0J
+12
+01
+#750
+1!

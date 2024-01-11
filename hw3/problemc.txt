@@ -1,0 +1,15 @@
+# homework problem 1 c
+.i 4
+.o 2
+.ilb w x y x
+.ob f g
+.p 5
+1-11 10
+-11- 01
+0001 11
+1--0 01
+-1-1 10
+.e
+
+f = wyz + w'x'y'z + xz
+g = xy + w'x'y'z + wz'

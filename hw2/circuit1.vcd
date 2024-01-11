@@ -1,0 +1,295 @@
+$date
+    Jan 29, 2007  12:30:53
+$end
+$version
+    Tool:	VERILOG-XL	05.10.003-s
+$end
+$timescale
+     100ps
+$end
+
+$scope module test_fixture $end
+$var reg       1 !    done  $end
+$var reg       3 "    test_input [2:0] $end
+$var wire      1 #    f1  $end
+$var wire      1 $    f2  $end
+
+$scope module u3 $end
+$var wire      1 %    x  $end
+$var wire      1 &    y  $end
+$var wire      1 '    z  $end
+$var wire      1 #    f  $end
+$var wire      1 (    node1  $end
+$var wire      1 )    node2  $end
+$var wire      1 *    node3  $end
+$var wire      1 +    node4  $end
+
+$scope module u1 $end
+$var wire      1 ,    a  $end
+$var wire      1 -    b  $end
+$var wire      1 '    c  $end
+$var wire      1 (    f  $end
+$upscope $end
+
+
+$scope module u2 $end
+$var wire      1 .    a  $end
+$var wire      1 &    b  $end
+$var wire      1 /    c  $end
+$var wire      1 )    f  $end
+$upscope $end
+
+
+$scope module u3 $end
+$var wire      1 %    a  $end
+$var wire      1 0    b  $end
+$var wire      1 1    c  $end
+$var wire      1 *    f  $end
+$upscope $end
+
+
+$scope module u4 $end
+$var wire      1 %    a  $end
+$var wire      1 &    b  $end
+$var wire      1 '    c  $end
+$var wire      1 +    f  $end
+$upscope $end
+
+
+$scope module u5 $end
+$var wire      1 (    a  $end
+$var wire      1 )    b  $end
+$var wire      1 *    c  $end
+$var wire      1 +    d  $end
+$var wire      1 #    f  $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module u4 $end
+$var wire      1 2    x  $end
+$var wire      1 3    y  $end
+$var wire      1 4    z  $end
+$var wire      1 $    f  $end
+$var wire      1 5    node1  $end
+$var wire      1 6    node2  $end
+$var wire      1 7    node3  $end
+$var wire      1 8    node4  $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module AND2 $end
+$var wire      1 9    a  $end
+$var wire      1 :    b  $end
+$var wire      1 ;    f  $end
+$upscope $end
+
+
+$scope module OR2 $end
+$var wire      1 <    a  $end
+$var wire      1 =    b  $end
+$var wire      1 >    f  $end
+$upscope $end
+
+
+$scope module NAND2 $end
+$var wire      1 ?    a  $end
+$var wire      1 @    b  $end
+$var wire      1 A    f  $end
+$upscope $end
+
+
+$scope module NOR2 $end
+$var wire      1 B    a  $end
+$var wire      1 C    b  $end
+$var wire      1 D    f  $end
+$upscope $end
+
+
+$scope module INV $end
+$var wire      1 E    a  $end
+$var wire      1 F    f  $end
+$upscope $end
+
+
+$scope module NOR3 $end
+$var wire      1 G    a  $end
+$var wire      1 H    b  $end
+$var wire      1 I    c  $end
+$var wire      1 J    f  $end
+$upscope $end
+
+
+$scope module NAND3 $end
+$var wire      1 K    a  $end
+$var wire      1 L    b  $end
+$var wire      1 M    c  $end
+$var wire      1 N    f  $end
+$upscope $end
+
+
+$scope module OR3 $end
+$var wire      1 O    a  $end
+$var wire      1 P    b  $end
+$var wire      1 Q    c  $end
+$var wire      1 R    f  $end
+$upscope $end
+
+
+$scope module AND4 $end
+$var wire      1 S    a  $end
+$var wire      1 T    b  $end
+$var wire      1 U    c  $end
+$var wire      1 V    d  $end
+$var wire      1 W    f  $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+b000 "
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+1,
+1-
+1.
+1/
+10
+11
+02
+03
+04
+05
+06
+07
+08
+z9
+z:
+x;
+z<
+z=
+x>
+z?
+z@
+xA
+zB
+zC
+xD
+zE
+xF
+zG
+zH
+zI
+xJ
+zK
+zL
+zM
+xN
+zO
+zP
+zQ
+xR
+zS
+zT
+zU
+zV
+xW
+$end
+#50
+b001 "
+14
+1'
+15
+01
+0/
+1(
+1$
+1#
+#100
+b011 "
+b010 "
+13
+1&
+04
+0'
+05
+00
+0-
+16
+11
+1/
+0(
+1)
+#150
+b011 "
+14
+1'
+06
+01
+0/
+0$
+0)
+0#
+#200
+b111 "
+b101 "
+b100 "
+12
+1%
+03
+0&
+04
+0'
+0.
+0,
+10
+1-
+17
+11
+1/
+1$
+1*
+1#
+#250
+b101 "
+14
+1'
+07
+01
+0/
+0$
+0*
+0#
+#300
+b111 "
+b110 "
+13
+1&
+04
+0'
+00
+0-
+11
+1/
+#350
+b111 "
+14
+1'
+18
+1+
+01
+0/
+1$
+1#
+#400
+1!

@@ -1,0 +1,724 @@
+$date
+    Mar 23, 2007  15:53:22
+$end
+$version
+    Tool:	VERILOG-XL	05.10.003-s
+$end
+$timescale
+     100ps
+$end
+
+$scope module test_fixture $end
+$var reg       1 !    done  $end
+$var reg       1 "    Cin  $end
+$var reg       1 #    X1  $end
+$var reg       1 $    X2  $end
+$var reg       1 %    Y1  $end
+$var reg       1 &    Y2  $end
+$var wire      1 '    S2  $end
+$var wire      1 (    S1  $end
+$var wire      1 )    Cout  $end
+
+$scope module u3 $end
+$var wire      1 *    Cin  $end
+$var wire      1 +    X1  $end
+$var wire      1 ,    X2  $end
+$var wire      1 -    Y1  $end
+$var wire      1 .    Y2  $end
+$var wire      1 '    S2  $end
+$var wire      1 (    S1  $end
+$var wire      1 )    Cout  $end
+$var wire      1 /    C1  $end
+
+$scope module u15 $end
+$var wire      1 *    Cin  $end
+$var wire      1 +    X  $end
+$var wire      1 -    Y  $end
+$var wire      1 /    Cout  $end
+$var wire      1 (    S  $end
+$var wire      1 0    number1  $end
+$var wire      1 1    number2  $end
+$var wire      1 2    number3  $end
+$var wire      1 3    number4  $end
+$var wire      1 4    number5  $end
+
+$scope module u6 $end
+$var wire      1 +    a  $end
+$var wire      1 -    b  $end
+$var wire      1 0    f  $end
+$upscope $end
+
+
+$scope module u7 $end
+$var wire      1 0    a  $end
+$var wire      1 *    b  $end
+$var wire      1 (    f  $end
+$upscope $end
+
+
+$scope module u8 $end
+$var wire      1 -    a  $end
+$var wire      1 *    b  $end
+$var wire      1 1    f  $end
+$upscope $end
+
+
+$scope module u9 $end
+$var wire      1 +    a  $end
+$var wire      1 *    b  $end
+$var wire      1 2    f  $end
+$upscope $end
+
+
+$scope module u10 $end
+$var wire      1 +    a  $end
+$var wire      1 -    b  $end
+$var wire      1 3    f  $end
+$upscope $end
+
+
+$scope module u11 $end
+$var wire      1 1    a  $end
+$var wire      1 2    b  $end
+$var wire      1 4    f  $end
+$upscope $end
+
+
+$scope module u12 $end
+$var wire      1 3    a  $end
+$var wire      1 4    b  $end
+$var wire      1 /    f  $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module u16 $end
+$var wire      1 /    Cin  $end
+$var wire      1 ,    X  $end
+$var wire      1 .    Y  $end
+$var wire      1 )    Cout  $end
+$var wire      1 '    S  $end
+$var wire      1 5    Cinv  $end
+$var wire      1 6    EN  $end
+$var wire      1 7    C1  $end
+$var wire      1 8    C2  $end
+
+$scope module u30 $end
+$var wire      1 /    a  $end
+$var wire      1 5    f  $end
+$upscope $end
+
+
+$scope module u13 $end
+$var wire      1 6    EN  $end
+$var wire      1 /    I3  $end
+$var wire      1 5    I2  $end
+$var wire      1 5    I1  $end
+$var wire      1 /    I0  $end
+$var wire      1 ,    S1  $end
+$var wire      1 .    S0  $end
+$var wire      1 '    Y  $end
+$var wire      1 9    select0  $end
+$var wire      1 :    select1  $end
+$var wire      1 ;    select2  $end
+$var wire      1 <    select3  $end
+
+$scope module u1 $end
+$var wire      1 6    a  $end
+$var wire      1 /    b  $end
+$var wire      1 =    c  $end
+$var wire      1 >    d  $end
+$var wire      1 9    f  $end
+$upscope $end
+
+
+$scope module u2 $end
+$var wire      1 6    a  $end
+$var wire      1 5    b  $end
+$var wire      1 ?    c  $end
+$var wire      1 .    d  $end
+$var wire      1 :    f  $end
+$upscope $end
+
+
+$scope module u3 $end
+$var wire      1 6    a  $end
+$var wire      1 5    b  $end
+$var wire      1 ,    c  $end
+$var wire      1 @    d  $end
+$var wire      1 ;    f  $end
+$upscope $end
+
+
+$scope module u4 $end
+$var wire      1 6    a  $end
+$var wire      1 /    b  $end
+$var wire      1 ,    c  $end
+$var wire      1 .    d  $end
+$var wire      1 <    f  $end
+$upscope $end
+
+
+$scope module u5 $end
+$var wire      1 9    a  $end
+$var wire      1 :    b  $end
+$var wire      1 ;    c  $end
+$var wire      1 <    d  $end
+$var wire      1 '    f  $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module u14 $end
+$var wire      1 6    EN  $end
+$var wire      1 7    I3  $end
+$var wire      1 /    I2  $end
+$var wire      1 /    I1  $end
+$var wire      1 8    I0  $end
+$var wire      1 ,    S1  $end
+$var wire      1 .    S0  $end
+$var wire      1 )    Y  $end
+$var wire      1 A    select0  $end
+$var wire      1 B    select1  $end
+$var wire      1 C    select2  $end
+$var wire      1 D    select3  $end
+
+$scope module u1 $end
+$var wire      1 6    a  $end
+$var wire      1 8    b  $end
+$var wire      1 E    c  $end
+$var wire      1 F    d  $end
+$var wire      1 A    f  $end
+$upscope $end
+
+
+$scope module u2 $end
+$var wire      1 6    a  $end
+$var wire      1 /    b  $end
+$var wire      1 G    c  $end
+$var wire      1 .    d  $end
+$var wire      1 B    f  $end
+$upscope $end
+
+
+$scope module u3 $end
+$var wire      1 6    a  $end
+$var wire      1 /    b  $end
+$var wire      1 ,    c  $end
+$var wire      1 H    d  $end
+$var wire      1 C    f  $end
+$upscope $end
+
+
+$scope module u4 $end
+$var wire      1 6    a  $end
+$var wire      1 7    b  $end
+$var wire      1 ,    c  $end
+$var wire      1 .    d  $end
+$var wire      1 D    f  $end
+$upscope $end
+
+
+$scope module u5 $end
+$var wire      1 A    a  $end
+$var wire      1 B    b  $end
+$var wire      1 C    c  $end
+$var wire      1 D    d  $end
+$var wire      1 )    f  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope module NAND2 $end
+$var wire      1 I    a  $end
+$var wire      1 J    b  $end
+$var wire      1 K    f  $end
+$upscope $end
+
+
+$scope module NOR2 $end
+$var wire      1 L    a  $end
+$var wire      1 M    b  $end
+$var wire      1 N    f  $end
+$upscope $end
+
+
+$scope module NOR3 $end
+$var wire      1 O    a  $end
+$var wire      1 P    b  $end
+$var wire      1 Q    c  $end
+$var wire      1 R    f  $end
+$upscope $end
+
+
+$scope module NAND3 $end
+$var wire      1 S    a  $end
+$var wire      1 T    b  $end
+$var wire      1 U    c  $end
+$var wire      1 V    f  $end
+$upscope $end
+
+
+$scope module OR3 $end
+$var wire      1 W    a  $end
+$var wire      1 X    b  $end
+$var wire      1 Y    c  $end
+$var wire      1 Z    f  $end
+$upscope $end
+
+
+$scope module AND3 $end
+$var wire      1 [    a  $end
+$var wire      1 \    b  $end
+$var wire      1 ]    c  $end
+$var wire      1 ^    f  $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+15
+16
+17
+08
+09
+0:
+0;
+0<
+1=
+1>
+1?
+1@
+0A
+0B
+0C
+0D
+1E
+1F
+1G
+1H
+zI
+zJ
+xK
+zL
+zM
+xN
+zO
+zP
+zQ
+xR
+zS
+zT
+zU
+xV
+zW
+zX
+zY
+xZ
+z[
+z\
+z]
+x^
+$end
+#50
+1"
+1*
+1(
+#100
+1%
+0"
+1-
+0*
+10
+#150
+1"
+1*
+11
+0(
+14
+1/
+19
+05
+1'
+#200
+1&
+0%
+0"
+1.
+0-
+0*
+0H
+1B
+0F
+0@
+0>
+01
+00
+1)
+09
+04
+0'
+0/
+0B
+15
+0)
+1:
+1'
+#250
+1"
+1*
+1(
+#300
+1%
+0"
+1-
+0*
+10
+#350
+1"
+1*
+11
+0(
+14
+1/
+1B
+05
+1)
+0:
+0'
+#400
+1#
+0&
+0%
+0"
+1+
+0.
+0-
+0*
+1H
+0B
+1F
+1@
+1>
+01
+1(
+0)
+19
+04
+1'
+0/
+09
+15
+0'
+#450
+1"
+1*
+12
+0(
+14
+1/
+19
+05
+1'
+#500
+1%
+0"
+1-
+0*
+13
+00
+02
+04
+#550
+1"
+1*
+12
+11
+1(
+14
+#600
+1&
+0%
+0"
+1.
+0-
+0*
+0H
+1B
+0F
+0@
+0>
+03
+01
+10
+02
+1)
+09
+04
+0'
+0/
+0B
+15
+0)
+1:
+1'
+#650
+1"
+1*
+12
+0(
+14
+1/
+1B
+05
+1)
+0:
+0'
+#700
+1%
+0"
+1-
+0*
+13
+00
+02
+04
+#750
+1"
+1*
+12
+11
+1(
+14
+#800
+1$
+0#
+0&
+0%
+0"
+1,
+0+
+0.
+0-
+0*
+0G
+0E
+0?
+0=
+03
+02
+1H
+0B
+1F
+1@
+1>
+01
+0(
+1C
+04
+0/
+0C
+15
+0)
+1;
+1'
+#850
+1"
+1*
+1(
+#900
+1%
+0"
+1-
+0*
+10
+#950
+1"
+1*
+11
+0(
+14
+1/
+1C
+05
+1)
+0;
+0'
+#1000
+1&
+0%
+0"
+1.
+0-
+0*
+1D
+0H
+0F
+1<
+0@
+0>
+01
+00
+0C
+1'
+04
+0/
+0<
+15
+0'
+#1050
+1"
+1*
+1(
+#1100
+1%
+0"
+1-
+0*
+10
+#1150
+1"
+1*
+11
+0(
+14
+1/
+1<
+05
+1'
+#1200
+1#
+0&
+0%
+0"
+1+
+0.
+0-
+0*
+0D
+1H
+1F
+0<
+1@
+1>
+01
+1(
+0)
+1C
+0'
+04
+1)
+0/
+0C
+15
+0)
+1;
+1'
+#1250
+1"
+1*
+12
+0(
+14
+1/
+1C
+05
+1)
+0;
+0'
+#1300
+1%
+0"
+1-
+0*
+13
+00
+02
+04
+#1350
+1"
+1*
+12
+11
+1(
+14
+#1400
+1&
+0%
+0"
+1.
+0-
+0*
+1D
+0H
+0F
+1<
+0@
+0>
+03
+01
+10
+02
+0C
+1'
+04
+0/
+0<
+15
+0'
+#1450
+1"
+1*
+12
+0(
+14
+1/
+1<
+05
+1'
+#1500
+1%
+0"
+1-
+0*
+13
+00
+02
+04
+#1550
+1"
+1*
+12
+11
+1(
+14
+#1600
+1!

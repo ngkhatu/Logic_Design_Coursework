@@ -1,0 +1,12 @@
+# homework problem 1 a
+.i 4
+.o 1
+.ilb w x y z
+.ob f
+- 1 - - 1
+- 1 1 1 1
+- 0 1 1 1
+- 0 1 - 1
+1 1 - - 1
+0 1 - - 1
+.e

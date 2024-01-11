@@ -1,0 +1,14 @@
+# homework problem 1 b
+.i 5
+.o 1
+.ilb v w x y z
+.ob f
+.p 5
+10-11 1
+100-0 1
+011-1 1
+010-0 1
+0-001 1
+.e
+
+f = vw'yz + vw'x'z' + v'wxz + v'wx'z'+ v'x'y'z
